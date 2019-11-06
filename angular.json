@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang-ns"
+    }
+  },
+  "defaultProject": "ang-ns",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  }
 }

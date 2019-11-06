@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
+Steps to create this project:
+
+> ng new ang-ns
+routing: y
+stylesheets: scss
+> cd ang-ns
+> ng add @nativescript/schematics --sample
+
+Then open barcelona.module.ts file:
+
+Line 24 exports componentDeclarations. It should export providerDeclarations.
+
+Correcting this line and importing barcelona.module.ts into the app.module.ts file allows the app to respond to:
+
+http://localhost:4200/players
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
